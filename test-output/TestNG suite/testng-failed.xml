@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestNG suite]" parallel="methods">
+  <test thread-count="2" name="TestNG testname(failed)" parallel="methods">
+    <classes>
+      <class name="testngConepts.OpenGoogle">
+        <methods>
+          <include name="getTitleTest"/>
+          <include name="checkLogoTest"/>
+          <include name="checkLinkTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="seachDataTest"/>
+        </methods>
+      </class> <!-- testngConepts.OpenGoogle -->
+    </classes>
+  </test> <!-- TestNG testname(failed) -->
+</suite> <!-- Failed suite [TestNG suite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG suite" parallel="methods" thread-count="2">
+	<test name="TestNG testname">
+	
+	
+
+		<!-- <parameter name = "browser" value = "firefox"></parameter> <parameter 
+			name="url" value="https://ui.freecrm.com/"></parameter> <parameter name="username" 
+			value="meerasagar0812@gmail.com"></parameter> <parameter name="password" 
+			value="Sagar@123"></parameter> -->
+
+
+		<!-- <groups> <run> <include name="sanity"></include> </run> </groups> -->
+		<classes>
+			<!-- <class name="testngConepts.Annotations" /> -->
+			<!-- <class name="testngConepts.OpenGoogle" /> -->
+			<!-- <class name="testngConepts.Dependancies" /> -->
+			<!-- <class name="testngConepts.GroupsInTestNG" /> -->
+			<class name="testngConepts.ParallelTesting"/>
+
+		</classes>
+
+	</test>
+</suite>
